@@ -1,2 +1,4 @@
 # Stock-Market-Analysis
- Stock Market Analysis for Car Manufacturers
+Open the file Stock Market Analysis Project.ipynb
+
+This jupyter notebook showcases the steps I took to consider financial analysis with Python packages of Car Manufactures.
