@@ -1,4 +1,4 @@
-##Stock Sector Algorithmic Financial Analysis	
+# Stock Sector Algorithmic Financial Analysis	
 
 • Utilized Pandas libraries to import historical stock information of communication stocks into Matplotlib charting of the financial Greeks
 
