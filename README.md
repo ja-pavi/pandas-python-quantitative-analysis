@@ -1,3 +1,8 @@
+Stock Sector Algorithmic Financial Analysis								    
+•	Utilized Pandas libraries to import historical stock information of communication stocks into Matplotlib charting of the financial Greeks
+•	Incorporated financial analysis through a daily percentage change algorithm that allowed visualization in scatter matrix plots correlations 
+•	Collected daily return historical data to engineer a Daily Cumulative return that showcased an investor’s return against a time series index
+
 ```python
 import numpy as np
 import pandas as pd
