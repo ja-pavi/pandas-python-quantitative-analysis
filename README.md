@@ -441,8 +441,6 @@ gm[['Open','MA50','MA200']].plot(label='gm',figsize=(16,8))
 
 ______
 
-** Finally lets see if there is a relationship between these stocks, after all, they are all related to the car industry. We can see this easily through a scatter matrix plot. Import scatter_matrix from pandas.plotting and use it to create a scatter matrix plot of all the stocks'opening price. You may need to rearrange the columns into a new single dataframe. Hints and info can be found here: https://pandas.pydata.org/pandas-docs/stable/visualization.html#scatter-matrix-plot **
-
 
 ```python
 from pandas.plotting import scatter_matrix
@@ -507,8 +505,6 @@ candlestick_ohlc(ax, ford_values, width=0.6, colorup='g',colordown='r');
 First we will begin by calculating the daily percentage change. Daily percentage change is defined by the following formula:
 
 $ r_t = \frac{p_t}{p_{t-1}} -1$
-
-This defines r_t (return at time t) as equal to the price at time t divided by the price at time t-1 (the previous day) minus 1. Basically this just informs you of your percent gain (or loss) if you bought the stock on day and then sold it the next day. While this isn't necessarily helpful for attempting to predict future values of the stock, its very helpful in analyzing the volatility of the stock. If daily returns have a wide distribution, the stock is more volatile from one day to the next. Let's calculate the percent returns and then plot them with a histogram, and decide which stock is the most stable!
 
 
 ```python
@@ -1103,7 +1099,7 @@ Lets us say there is a stock 'ABC' that is being actively traded on an exchange.
     01/03/2018                   20
     01/04/2018                   25
 
-**Daily Return** : Daily return is the profit/loss made by the stock compared to the previous day. (This is what ew just calculated above). A value above one indicates profit, similarly a value below one indicates loss. It is also expressed in percentage to convey the information better. (When expressed as percentage, if the value is above 0, the stock had give you profit else loss). So for the above example the daily returns would be
+**Daily Return** : Daily return is the profit/loss made by the stock compared to the previous day.
 
     Date                         Daily Return                  %Daily Return
     01/01/2018                 10/10 =  1                          -   
